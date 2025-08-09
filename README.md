@@ -9,4 +9,5 @@ Al database dell'azienda possono accedere due classi di lavoratori: gli admin po
 Punto forte del progetto è il riuscito controllo degli accessi al database che impedisce ai normali worker di visualizzare i dati sensibili degli altri utenti.
 
 Per eseguire il progetto è necessario avere a disposizione NetBeans, javaFX e MySQL.
+Le due directory "PROGETTO_SERVER" e "PROGETTO_CLIENT" non sono altro che due progetti NetBeans.
 Avviando l'applicazione server, se MySQL è già attivo, il database di progetto verrà inizializzato automaticamente.
