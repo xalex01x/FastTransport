@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.fxml.FXML?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.geometry.Insets?>
+
+<VBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0" spacing="20.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="it.unipi.progetto_client.PrimaryController">
+   <children>
+      <HBox alignment="CENTER" prefHeight="600.0" prefWidth="800.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="600.0" prefWidth="500.0" spacing="20.0">
+               <children>
+                  <ImageView fx:id="image" fitHeight="161.0" fitWidth="293.0" pickOnBounds="true" preserveRatio="true" />
+                  <Label style="-fx-font-size: 24px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;" text="Accedi o Registrati" />
+                  <TextField fx:id="username" prefHeight="40.0" prefWidth="350.0" promptText="Inserisci username" style="-fx-background-radius: 5; -fx-border-color: #3498db; -fx-border-width: 2; -fx-padding: 5;" />
+                  <PasswordField fx:id="password" prefHeight="40.0" prefWidth="350.0" promptText="Inserisci password" style="-fx-background-radius: 5; -fx-border-color: #3498db; -fx-border-width: 2; -fx-padding: 5;" />
+                  <HBox alignment="CENTER" spacing="20.0">
+                     <children>
+                        <Button fx:id="homePageButton" onAction="#switchToHomePage" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #3498db; -fx-text-fill: white; -fx-font-size: 16px; -fx-background-radius: 5; -fx-padding: 10;" text="Accedi" />
+                        <Button fx:id="registerButton" onAction="#switchToRegister" prefHeight="45.0" prefWidth="150.0" style="-fx-background-color: #2ecc71; -fx-text-fill: white; -fx-font-size: 16px; -fx-background-radius: 5; -fx-padding: 10;" text="Registrati" />
+                     </children>
+                  </HBox>
+                  <Label fx:id="res" alignment="CENTER" prefHeight="20.0" prefWidth="350.0" style="-fx-text-fill: #e74c3c; -fx-font-size: 14px; -fx-font-weight: bold;" textAlignment="CENTER" />
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</VBox>

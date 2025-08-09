@@ -1,0 +1,14 @@
+[
+    {
+        "nome":"frigorifero",
+        "marca":"samsung",
+        "quantity": 5,
+        "venditore": "trony"
+    },
+    {
+        "nome":"televisore",
+        "marca":"samsung",
+        "quantity": 4,
+        "venditore": "trony"
+    }
+]

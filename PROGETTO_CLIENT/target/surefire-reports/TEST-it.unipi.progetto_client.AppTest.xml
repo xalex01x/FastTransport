@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="it.unipi.progetto_client.AppTest" time="2.336" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\erminio\Documents\NetBeansProjects\PROGETTO_CLIENT\target\test-classes;C:\Users\erminio\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\erminio\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\erminio\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\erminio\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\erminio\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\erminio\.m2\repository\org\apache\logging\log4j\log4j-core\2.16.0\log4j-core-2.16.0.jar;C:\Users\erminio\.m2\repository\org\apache\logging\log4j\log4j-1.2-api\2.16.0\log4j-1.2-api-2.16.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\erminio\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\erminio\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\erminio\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="user.timezone" value="Europe/Rome"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="user.country" value="IT"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Microsoft\jdk-21.0.4.7-hotspot\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\erminio\AppData\Local\Temp\surefire10467964976273012739 2025-01-02T17-17-18_537-jvmRun1 surefire-20250102171719542_1tmp surefire_0-20250102171719542_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="test" value="it.unipi.progetto_client.AppTest#accessTest"/>
+    <property name="surefire.test.class.path" value="C:\Users\erminio\Documents\NetBeansProjects\PROGETTO_CLIENT\target\test-classes;C:\Users\erminio\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\erminio\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\erminio\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\erminio\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\erminio\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\erminio\.m2\repository\org\apache\logging\log4j\log4j-core\2.16.0\log4j-core-2.16.0.jar;C:\Users\erminio\.m2\repository\org\apache\logging\log4j\log4j-1.2-api\2.16.0\log4j-1.2-api-2.16.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\erminio\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\erminio\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\erminio\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\erminio"/>
+    <property name="user.language" value="it"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\erminio\Documents\NetBeansProjects\PROGETTO_CLIENT\target\classes;C:\Users\erminio\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13-win.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13-win.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13-win.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13-win.jar;C:\Users\erminio\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\erminio\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\erminio\.m2\repository\org\apache\logging\log4j\log4j-api\2.16.0\log4j-api-2.16.0.jar"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Microsoft\jdk-21.0.4.7-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\erminio\Documents\NetBeansProjects\PROGETTO_CLIENT"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\erminio\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M7\surefire-booter-3.0.0-M7.jar;C:\Users\erminio\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M7\surefire-api-3.0.0-M7.jar;C:\Users\erminio\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M7\surefire-logger-api-3.0.0-M7.jar;C:\Users\erminio\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M7\surefire-shared-utils-3.0.0-M7.jar;C:\Users\erminio\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M7\surefire-extensions-spi-3.0.0-M7.jar;C:\Users\erminio\Documents\NetBeansProjects\PROGETTO_CLIENT\target\test-classes;C:\Users\erminio\.m2\repository\org\openjfx\javafx-controls\13\javafx-controls-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-graphics\13\javafx-graphics-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-base\13\javafx-base-13.jar;C:\Users\erminio\.m2\repository\org\openjfx\javafx-fxml\13\javafx-fxml-13.jar;C:\Users\erminio\.m2\repository\org\apache\httpcomponents\httpclient\4.5.14\httpclient-4.5.14.jar;C:\Users\erminio\.m2\repository\org\apache\httpcomponents\httpcore\4.4.16\httpcore-4.4.16.jar;C:\Users\erminio\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\erminio\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.18.2\jackson-databind-2.18.2.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.18.2\jackson-annotations-2.18.2.jar;C:\Users\erminio\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.18.2\jackson-core-2.18.2.jar;C:\Users\erminio\.m2\repository\org\apache\logging\log4j\log4j-core\2.16.0\log4j-core-2.16.0.jar;C:\Users\erminio\.m2\repository\org\apache\logging\log4j\log4j-1.2-api\2.16.0\log4j-1.2-api-2.16.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.6.0\junit-jupiter-api-5.6.0.jar;C:\Users\erminio\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\erminio\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\erminio\.m2\repository\org\junit\platform\junit-platform-commons\1.6.0\junit-platform-commons-1.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.6.0\junit-jupiter-params-5.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.6.0\junit-jupiter-engine-5.6.0.jar;C:\Users\erminio\.m2\repository\org\junit\platform\junit-platform-engine\1.6.0\junit-platform-engine-1.6.0.jar;C:\Users\erminio\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M7\surefire-junit-platform-3.0.0-M7.jar;C:\Users\erminio\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M7\common-java5-3.0.0-M7.jar;C:\Users\erminio\.m2\repository\org\junit\platform\junit-platform-launcher\1.6.0\junit-platform-launcher-1.6.0.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.4+7-LTS"/>
+    <property name="user.name" value="erminio"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Microsoft-9889606"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-14\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="localRepository" value="C:\Users\erminio\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\erminio\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.4"/>
+    <property name="user.dir" value="C:\Users\erminio\Documents\NetBeansProjects\PROGETTO_CLIENT"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Microsoft\jdk-21.0.4.7-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Microsoft\jdk-21.0.4.7-hotspot\bin;C:\Program Files\Microsoft\jdk-17.0.12.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MATLAB\R2024a\bin;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\erminio\AppData\Local\Microsoft\WindowsApps;C:\Users\erminio\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\ucrt64\bin;C:\Users\erminio\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.vm.version" value="21.0.4+7-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="accessTest" classname="it.unipi.progetto_client.AppTest" time="2.246">
+    <system-out><![CDATA[IL TEST HA AVUTO ESITO POSITIVO: IL CONTROLLO SUGLI ACCESSI FUNZIONA CORRETTAMENTE (Accesso negato)
+]]></system-out>
+  </testcase>
+</testsuite>
